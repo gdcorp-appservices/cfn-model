@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name          = 'cfn-model'
   s.license       = 'MIT'
-  s.version       = '9.9.9'
+  s.version       = '0.6.10'
   s.executables   = %w(cfn_parse)
   s.authors       = ['Eric Kascic']
   s.summary       = 'cfn-model'
@@ -26,5 +26,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency('simplecov', '~> 0.11')
 
   s.add_runtime_dependency('kwalify', '0.7.2')
-  s.add_runtime_dependency('psych', '>= 3.1', '< 5')
+  s.add_runtime_dependency('psych', '5.0.1')
 end
